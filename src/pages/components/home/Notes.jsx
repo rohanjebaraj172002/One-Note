@@ -13,7 +13,7 @@ export default function Notes(props) {
                 <>
                 <h4 className="container">Your Notes</h4>
                 <div className="container mt-4">
-                <div className="card-colums">
+                <div className="card-columns">
                 {
                     notes.map((note) =>{
                         return(
